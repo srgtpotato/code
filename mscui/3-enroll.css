@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 99%;
+}
+
+.right{
+    top: 30px;
+    right: 30px;
+    position: absolute;
+}
+#user{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.popup{
+    font-size: 18px;
+    color: white;
+    display: none;
+    background-color: rgb(75 31 153);
+    width: 200px;
+    height: 50vh;
+    position: absolute;
+    padding:10px 0 5px 10px;
+    right: 35px;
+    top: 100px;
+    border-radius: 20px;
+
+}
+#logout{
+    left: 65;
+    bottom: 50;
+    border-style: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0 30px 30px;
+}
+img{
+    margin-left: 100px;
+    width: 30%;
+    height: 60%;
+}
+.enroll{
+    height: 85vh;
+    width: 35%;
+    border-radius: 5px;
+    box-shadow: #402374 0 0 20px 4px; 
+}
+input{
+    margin: 5px 0 0 80px;
+    width: 310px;
+    height: 35px;
+}
+#enrollbtn{
+    margin: 25px 0 0 185px;
+    color: aliceblue;
+    background-color: rgb(75 31 153);
+    border-style: none;
+    width: 100px;
+    border-radius: 10px;
+}
+.slotcourse{
+    height: 100px;
+    margin: 10px 0 0 80px;
+}
+#major{
+    margin-left:12px;
+    width:180px;
+}

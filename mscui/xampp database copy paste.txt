@@ -1,0 +1,27 @@
+database name: portfolio
+
+
+create table student(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    lname varchar(225),
+    fname varchar(225),
+    mname varchar(225),
+    sex varchar(225),
+    studentid int(225),
+    contact varchar(225),
+    DOB date,
+    img varchar(225)
+);
+
+
+create table enrollee(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    lname varchar(225),
+    fname varchar(225),
+    mname varchar(225),
+    ay varchar(225),
+    semester int(225),
+    cy int(225),
+    course varchar(225),
+    major varchar(225)
+);

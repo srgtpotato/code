@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url(scc.jpg);
+    background-size: 1365px 655px ;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 99%;
+    display: grid;
+    place-items: center;
+    opacity:0.9;
+}
+
+  p{
+    position: absolute;
+    top:10px;
+    left:38%;
+    color:white;
+}
+.container{
+    top: -95px;
+    display: grid;
+    place-items: center;
+    position:relative;
+    height: 45vh;
+    width: 55%;
+    background: radial-gradient(#000000,#42216a , #5134ed ,#924feb, #cc7aff);
+}
+input{
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+}
+.button{
+    position:absolute;
+    left: 0;
+    bottom:0;
+    height: 30%;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+}
+#btn{
+    margin:0 0 0 -100px;
+    border-radius:10px;
+    width: 80px;
+    height: 30;
+    border-style:none;
+}
+#btn2{
+    margin-left:20px;
+    border-radius:10px;
+    width: 80px;
+    border-style:none;
+    height: 30;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#btn3{
+    position: absolute;
+    right: 31%;
+    bottom: 59px;;
+    border-radius:10px;
+    width: 80px;
+    border-style:none;
+    height: 30;
+}
+h1{
+    border:2px solid black;
+}
+
+
+.hidden {
+    display: none;
+  }
+
+  #loginForm {
+    height: 40vh;
+    width: 100px;
+    background: radial-gradient(#000000,#42216a , #5134ed ,#924feb, #cc7aff);
+    top:20px;
+    right:20px;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+  }
+
+  #loginForm button {
+    margin-top: 40px;
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  label{
+    color: white;
+  }
+  #username,#password{
+    margin-bottom: 10px;
+    width: 200px;
+  }
